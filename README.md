@@ -118,3 +118,7 @@ git status            # Ver estado actual
 ```
 
 ---
+
+## 📄 Licencia ®
+
+Este repositorio es de uso educativo. Contenido del **Curso GitHub 2024**.
