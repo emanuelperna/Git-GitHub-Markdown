@@ -1,29 +1,120 @@
-# Introducción
+# 🧰 Git, GitHub & Markdown
 
-Bienvenido a este proyecto. Aquí encontrarás información sobre el uso de **Git**, **GitHub** y **Markdown**. Estos son herramientas fundamentales para el desarrollo de software y la colaboración en proyectos.
+> **Guía de referencia esencial para el desarrollo de software y la colaboración en proyectos.**
 
-## ¿Qué es Git?
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-**Git** es un sistema de control de versiones distribuido que permite a los desarrolladores rastrear cambios en el código fuente a lo largo del tiempo. Con Git, puedes:
+---
 
-- Gestionar versiones de tu código.
-- Colaborar con otros desarrolladores.
-- Revertir cambios si es necesario.
+## 📖 Introducción
 
-## ¿Qué es GitHub?
+Bienvenido a esta guía. Aquí encontrarás información sobre el uso de **Git**, **GitHub** y **Markdown** — herramientas fundamentales para el desarrollo de software y la colaboración en proyectos modernos.
 
-**GitHub** es una plataforma basada en la web que utiliza Git para el control de versiones. Proporciona un entorno para alojar proyectos y colaborar con otros. Algunas características clave son:
+---
 
-- Almacenamiento de repositorios.
-- Herramientas de colaboración (issues, pull requests).
-- Integración continua y despliegue.
+## 🔀 ¿Qué es Git?
 
-## ¿Qué es Markdown?
+**Git** es un sistema de control de versiones distribuido que permite a los desarrolladores rastrear cambios en el código fuente a lo largo del tiempo.
 
-**Markdown** es un lenguaje de marcado ligero que permite formatear texto de manera sencilla. Es muy utilizado en README y documentación de proyectos. Algunas características incluyen:
+### ¿Para qué sirve?
 
-- Formateo de texto (negritas, itálicas).
-- Listas ordenadas y desordenadas.
-- Enlaces y imágenes.
+| Función | Descripción |
+|---|---|
+| 📌 **Versiones** | Registra cada cambio realizado en el código |
+| 🤝 **Colaboración** | Permite trabajar en equipo sin conflictos |
+| ↩️ **Reversión** | Vuelve a cualquier estado anterior del proyecto |
 
-## Hojas de referencia
+### Comandos esenciales
+
+```bash
+git init              # Inicializar un repositorio
+git add .             # Agregar cambios al staging
+git commit -m "msg"   # Confirmar los cambios
+git push              # Subir al repositorio remoto
+git pull              # Traer cambios del remoto
+git status            # Ver estado actual
+```
+
+---
+
+## 🐙 ¿Qué es GitHub?
+
+**GitHub** es una plataforma web que usa Git como motor de control de versiones. Permite alojar proyectos y colaborar con otros desarrolladores desde cualquier parte del mundo.
+
+### Características clave
+
+| Feature | Descripción |
+|---|---|
+| 📦 **Repositorios** | Almacenamiento de proyectos públicos o privados |
+| 🐛 **Issues** | Seguimiento de errores y mejoras |
+| 🔃 **Pull Requests** | Revisión y fusión de código colaborativo |
+| ⚙️ **CI/CD** | Integración y despliegue continuo con GitHub Actions |
+
+---
+
+## ✍️ ¿Qué es Markdown?
+
+**Markdown** es un lenguaje de marcado ligero que permite formatear texto de manera sencilla. Es el estándar para documentación, READMEs y wikis en GitHub.
+
+### Sintaxis básica
+
+```markdown
+# Título H1
+## Título H2
+
+**negrita**   *itálica*   ~~tachado~~
+
+- Item de lista
+- Otro item
+
+1. Lista numerada
+2. Segundo item
+
+[Texto del enlace](https://url.com)
+
+`código en línea`
+```
+
+### Tabla de referencia rápida
+
+| Elemento | Sintaxis |
+|---|---|
+| **Negrita** | `**texto**` |
+| *Itálica* | `*texto*` |
+| `Código` | `` `texto` `` |
+| Enlace | `[texto](url)` |
+| Imagen | `![alt](url)` |
+| Cita | `> texto` |
+| Separador | `---` |
+
+---
+
+## 📋 Hojas de Referencia
+
+- 📄 [Git Cheatsheet — GitHub Education](https://education.github.com/git-cheat-sheet-education.pdf)
+- 📄 [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+- 📄 [GitHub Docs](https://docs.github.com/)
+
+---
+
+## 🚦 Flujo de trabajo típico
+
+```
+1. git clone / git init     → Obtener o crear el repositorio
+        │
+        ▼
+2. Hacer cambios en el código
+        │
+        ▼
+3. git add . + git commit   → Registrar los cambios
+        │
+        ▼
+4. git push                 → Subir a GitHub
+        │
+        ▼
+5. Pull Request / Merge     → Colaborar con el equipo
+```
+
+---
